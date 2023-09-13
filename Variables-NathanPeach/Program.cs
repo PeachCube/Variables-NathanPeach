@@ -40,11 +40,8 @@ namespace Variables_NathanPeach
 
 
             Console.WriteLine("Welcome, "+GamerTag+ " ("+realName+")");
-            //
             Console.WriteLine("Current Score: "+score);
-            //
             Console.WriteLine("Percentile Rank: " + percentile +"%");
-            
             Console.WriteLine("Press any key to continue --->");
             Console.ReadKey();
 
