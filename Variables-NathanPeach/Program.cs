@@ -13,6 +13,10 @@ namespace Variables_NathanPeach
             Console.WriteLine("-Variables-");
             Console.WriteLine();
             
+            //int = integer, integers are always whole numbers
+            //float = decimals and/or fractions
+            //string = stores strings of text
+            
             //Variable "score" declared as an integer, and set to = 0
             int score = 0;
             //Note, adding the = 0 at the end is a seperate step, and used as a shortcut
@@ -26,7 +30,8 @@ namespace Variables_NathanPeach
             GamerTag = "PeachCubed";
             
             float percentile;
-            percentile = 92434f / 380923f;
+            percentile = (92434f / 380923f) * 100f;
+            //Multiplied by 100 to show that it's a percent out of 100
             
             //Alternatively, score += enemyvalue; (shortcut)
             score = score + enemyValue;
@@ -34,11 +39,11 @@ namespace Variables_NathanPeach
             //score = 0 + 2, therefore score = 2
 
 
-            Console.WriteLine("Welcome, "+GamerTag);
+            Console.WriteLine("Welcome, "+GamerTag+ " ("+realName+")");
             //
             Console.WriteLine("Current Score: "+score);
             //
-            Console.WriteLine("Percentile Rank: " + percentile);
+            Console.WriteLine("Percentile Rank: " + percentile +"%");
             
             Console.WriteLine("Press any key to continue --->");
             Console.ReadKey();
